@@ -1,0 +1,64 @@
+.team {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.team-subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: var(--subtitle-font);
+    padding-bottom: 17px    ;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team-title::after {
+    content: "";
+    display: block;
+    margin: 36px auto 45px;
+    width: 60px;
+    height: 4px;
+    background-color: var(--second-brand-color); 
+}
+
+.team-text {
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-color);
+    padding-bottom: 30px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-worker {
+    text-align: center;
+}
+
+.team-worker-img {
+    padding-bottom: 30px;
+}
+
+.team-worker-name {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.team-worker-job {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--text-color);
+}
