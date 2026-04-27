@@ -1,0 +1,28 @@
+.services { 
+    padding-top: 68px;
+}
+
+.services-subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: var(--subtitle-font);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.services-title {
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.services-title::after {
+    content: "";
+    display: block;
+    margin: 40px auto 65px;
+    width: 60px;
+    height: 4px;
+    background-color: var(--second-brand-color); 
+}

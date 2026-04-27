@@ -1,0 +1,131 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --brand-color: #95E1D3;
+  --second-brand-color: #F38181;
+  --title-color: #333333;
+  --text-color: #B6B6B6;
+  --text-btn-color: #FFFFFF;
+  --main-font: "Montserrat", sant-serif;
+  --subtitle-font: "Kaushan Script", sant-serif;
+  --text-font: "Roboto", sant-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 12px;
+  padding-top: 17px;
+}
+
+.header-list {
+  display: flex;
+  gap: 55px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  color: var(--brand-color);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.header-list-link {
+  color: var(--brand-color);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.header-list-link:hover {
+  color: var(--second-brand-color);
+}
+
+.header-list-link:hover {
+  border-bottom: 3px solid var(--second-brand-color);
+  padding-bottom: 10px;
+  transition: 0.4s;
+}
+
+.header-link-active {
+  color: var(--second-brand-color);
+  border-bottom: 3px solid var(--second-brand-color);
+  padding-bottom: 10px;
+}
+
+.services {
+  padding-top: 68px;
+}
+
+.services-subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: var(--subtitle-font);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.services-title {
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.services-title::after {
+  content: "";
+  display: block;
+  margin: 40px auto 65px;
+  width: 60px;
+  height: 4px;
+  background-color: var(--second-brand-color);
+}
